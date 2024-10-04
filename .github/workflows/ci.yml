@@ -1,0 +1,25 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: |
+          docker build -t ubuntu-boost env/
+
+      - name: Run Tests
+        run: |
+          docker run --rm \
+            --env-file env/.env \
+            -v ${{ github.workspace }}:/data/technicalTest:rw \
+            ubuntu-boost
