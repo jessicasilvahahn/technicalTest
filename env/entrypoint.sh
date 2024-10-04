@@ -1,5 +1,9 @@
 #!/bin/sh
 
+mkdir -p $VOLUME_PATH/tests/data
+
+chmod -R 777 $VOLUME_PATH/tests/data
+
 chmod -R 777 $VOLUME_PATH/tests
 
 # Navigate to the build directory
