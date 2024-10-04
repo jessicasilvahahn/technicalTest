@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/runTests.dir/data/technicalTest/tests/tests.cpp.o CMakeFiles/runTests.dir/data/technicalTest/client/Client.cpp.o CMakeFiles/runTests.dir/data/technicalTest/file/File.cpp.o -o runTests  /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 -lpthread 

@@ -1,0 +1,46 @@
+9 532 517 532 247 517 559 536 558 505 558 556 ]
+]
+>>
+endobj
+31 0 obj
+<< /Length 518 >>
+stream
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def
+/CMapName /Adobe-Identity-UCS def
+/CMapType 2 def
+1 begincodespacerange
+<0000> <FFFF>
+endcodespacerange
+2 beginbfrange
+<0000> <0000> <0000>
+<0001> <0016> [<004F> <0062> <006A> <0065> <0074> <0069> <0076> <006F> <0046> <0072> <006D> <0061> <00E7> <00E3> <0020> <0063> <0064> <00EA> <0045> <0078> <0070> <006E> ]
+endbfrange
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+endstream
+endobj
+16 0 obj
+<< /Type /Font
+/Subtype /Type0
+/BaseFont /Roboto-Bold
+/Encoding /Identity-H
+/DescendantFonts [30 0 R]
+/ToUnicode 31 0 R>>
+endobj
+33 0 obj
+<< /Type /FontDescriptor
+/FontName /QHBAAA+OpenSans-Regular
+/Flags 4 
+/FontBBox [-549.804687 -270.996093 1204.10156 1047.85156 ]
+/ItalicAngle 0 
+/Ascent 1068.84765 
+/Descent -292.968750 
+/CapHeight 1068.84765 
+/StemV 49.8046875 
+/FontFile2 34 0 R
