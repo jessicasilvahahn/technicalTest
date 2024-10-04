@@ -1,5 +1,7 @@
 #!/bin/sh
 
+chmod -R 777 $VOLUME_PATH/tests
+
 # Navigate to the build directory
 cd $VOLUME_PATH/build || exit 1
 
