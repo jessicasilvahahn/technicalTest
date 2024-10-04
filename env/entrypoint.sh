@@ -4,10 +4,6 @@ mkdir -p $VOLUME_PATH/tests/data
 
 chmod -R 777 $VOLUME_PATH/tests/data
 
-chmod -R 777 $VOLUME_PATH/tests
-
-rm -rf $VOLUME_PATH/tests/output
-
 # Navigate to the build directory
 cd $VOLUME_PATH/build || exit 1
 
@@ -29,10 +25,6 @@ else
     echo "Test script not found or not executable."
     exit 1
 fi
-
-mkdir -p $VOLUME_PATH/tests/output
-
-mv $VOLUME_PATH/tests/data/* $VOLUME_PATH/tests/output
 
 # Wait for the specified timeout
 sleep ${TIMEOUT_TESTS}
