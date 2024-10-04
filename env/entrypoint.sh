@@ -6,6 +6,8 @@ chmod -R 777 $VOLUME_PATH/tests/data
 
 chmod -R 777 $VOLUME_PATH/tests
 
+rm -rf $VOLUME_PATH/tests/output
+
 # Navigate to the build directory
 cd $VOLUME_PATH/build || exit 1
 
