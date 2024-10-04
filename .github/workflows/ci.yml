@@ -17,6 +17,9 @@ jobs:
         run: |
           docker build -t ubuntu-boost env/
 
+      - name: Create data directory
+        run: mkdir -p ${{ github.workspace }}/tests/data
+
       - name: Run Tests
         run: |
           docker run --rm \
