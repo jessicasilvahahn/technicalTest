@@ -19,7 +19,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          docker run \
+          docker run --rm \
             --privileged \
             --env-file ${{ github.workspace }}/env/.env \
             -v ${{ github.workspace }}:/data/technicalTest:rw \
