@@ -25,5 +25,5 @@ jobs:
           docker run --rm \
             --privileged \
             --env-file ${{ github.workspace }}/env/.env \
-            -v ${{ github.workspace }}:/data/technicalTest:rw \
+            -v ${{ github.workspace }}:/data/technicalTest:r \
             ubuntu-boost
