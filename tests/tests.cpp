@@ -5,7 +5,9 @@
 #include <boost/filesystem.hpp>
 
 namespace fs = boost::filesystem;
-const std::string DIR = "/data/technicalTest/tests/";
+const char* volumePathChar = getenv("VOLUME_PATH");
+std::string volumePath(volumePathChar);
+std::string DIR(volumePath + "/tests/");
 
 bool isEmpty(const fs::path& dir)
 {
@@ -61,7 +63,9 @@ TEST(sendFile, BigOne)
     ASSERT_FALSE(isEmpty(DIR + "data"));
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv) 
+{
+    std::cout << "Tests dir: " << DIR << std::endl;
     if(!isEmpty(DIR + "data"))
     {
         removeAllFiles(DIR + "data");
