@@ -1,3 +1,0 @@
-Server::accept: Accepted connection from: 127.0.0.1_56770
-DataReceiver::startTimer: Connection timed out
-DataReceiver::closeConnection

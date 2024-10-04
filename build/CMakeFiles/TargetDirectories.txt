@@ -1,9 +1,0 @@
-/data/technicalTest/build/CMakeFiles/service.dir
-/data/technicalTest/build/CMakeFiles/runTests.dir
-/data/technicalTest/build/CMakeFiles/mergeFiles.dir
-/data/technicalTest/build/CMakeFiles/edit_cache.dir
-/data/technicalTest/build/CMakeFiles/rebuild_cache.dir
-/data/technicalTest/build/CMakeFiles/list_install_components.dir
-/data/technicalTest/build/CMakeFiles/install.dir
-/data/technicalTest/build/CMakeFiles/install/local.dir
-/data/technicalTest/build/CMakeFiles/install/strip.dir

@@ -1,3 +1,0 @@
-/data/technicalTest/service
-/data/technicalTest/runTests
-/data/technicalTest/mergeFiles

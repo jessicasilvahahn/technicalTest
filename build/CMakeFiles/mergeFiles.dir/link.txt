@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mergeFiles.dir/data/technicalTest/tests/mergeFiles.cpp.o -o mergeFiles 
