@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Navigate to the build directory
-cd /data/technicalTest/build || exit 1
+cd $VOLUME_PATH/build || exit 1
 
 # Run CMake and make commands
 cmake . && make && make install
