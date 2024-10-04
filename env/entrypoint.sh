@@ -28,6 +28,10 @@ else
     exit 1
 fi
 
+mkdir -p $VOLUME_PATH/tests/output
+
+mv $VOLUME_PATH/tests/data/* $VOLUME_PATH/tests/output
+
 # Wait for the specified timeout
 sleep ${TIMEOUT_TESTS}
 
